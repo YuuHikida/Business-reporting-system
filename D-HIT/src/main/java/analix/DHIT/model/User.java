@@ -7,13 +7,13 @@ public class User {
     private String role;
     private  byte[] icon;
 
-    public int getEmployeeCode() {
+    public int getEmployeeCode()
+    {
         return employeeCode;
     }
-
-    public void setEmployeeCode(int employeeCode) {
+    public void setEmployeeCode(int employeeCode)
+    {
         this.employeeCode = employeeCode;
-
     }
 
     public String getName() {
